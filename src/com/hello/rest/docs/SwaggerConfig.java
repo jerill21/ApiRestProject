@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-@ComponentScan("main.java.com.hello.rest")
+@ComponentScan("com.hello.rest")
 public class SwaggerConfig {
 
 

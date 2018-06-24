@@ -18,8 +18,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @Configuration
 @EnableAutoConfiguration  // Sprint Boot Auto Configuration
-@ComponentScan(basePackages = "main.java.com.hello")
-@EnableJpaRepositories("main.java.com.hello.jpa") // To segregate MongoDB and JPA repositories. Otherwise not needed.
+@ComponentScan(basePackages = "com.hello")
+@EnableJpaRepositories("com.hello.jpa") // To segregate MongoDB and JPA repositories. Otherwise not needed.
 public class Application extends SpringBootServletInitializer {
 
     private static final Class<Application> applicationClass = Application.class;
